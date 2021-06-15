@@ -43,7 +43,6 @@ public class SList extends List {
     return new SListNode(item, this, next);
   }
 
-
   /**
    *  SList() constructs for an empty SList.
    **/
@@ -52,7 +51,6 @@ public class SList extends List {
     tail = null;
     size = 0;
   }
-
 
   /**
    *  insertFront() inserts an item at the front of this SList.
